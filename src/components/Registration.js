@@ -109,7 +109,7 @@ const Registration = () => {
             <li>
               MESSAGE:
               <textarea
-                name="Enter message"
+                name="message"
                 value={userData.message}
                 onChange={changeData}
                 placeholder="Enter your message"
