@@ -91,7 +91,7 @@ const Registration = () => {
               <input
                 type="text"
                 name="age"
-                placeholder="Age"
+                placeholder="Enter Age"
                 value={userData.age}
                 onChange={changeData}
               />
@@ -101,7 +101,7 @@ const Registration = () => {
               <input
                 type="text"
                 name="dob"
-                placeholder="DOB"
+                placeholder="Enter DOB"
                 value={userData.dob}
                 onChange={changeData}
               />
@@ -109,7 +109,7 @@ const Registration = () => {
             <li>
               MESSAGE:
               <textarea
-                name="message"
+                name="Enter message"
                 value={userData.message}
                 onChange={changeData}
                 placeholder="Enter your message"
